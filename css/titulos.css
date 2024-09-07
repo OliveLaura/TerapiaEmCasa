@@ -1,0 +1,58 @@
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem;
+    /* Tamanho da fonte */
+    color: #222831;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem;
+    /* Espaçamento entre letras */
+}
+
+/* Estiliza os títulos h2 */
+h2 {
+    font-size: 2.0rem;
+    /* Tamanho da fonte */
+    color: #222831;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem;
+    /* Espaçamento entre letras */
+}
+
+/* Estiliza os títulos h3 */
+h3 {
+    font-size: 1.25rem;
+    /* Tamanho da fonte */
+    color: #222831;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem;
+    /* Espaçamento entre letras */
+}
+
+/* Estiliza os títulos h4 */
+h4 {
+    font-size: 1.25rem;
+    /* Tamanho da fonte */
+    color: #FEF9FF;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem;
+    /* Espaçamento entre letras */
+}
+
+h5 {
+    font-size: 1.20rem;
+    /* Tamanho da fonte */
+    color: #79211b;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem;
+    /* Espaçamento entre letras */
+}

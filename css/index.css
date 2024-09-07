@@ -1,0 +1,219 @@
+/* Importa as fontes Merriweather e Merriweather Sans e do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Merriweather", serif;
+    /* Define a fonte padrão */
+    background-color: #F2DFD7;
+    /* Cor de fundo da página */
+    height: 100%;
+    /* Preenche a altura total da viewport */
+    margin: 0;
+    /* Remove a margem padrão */
+    padding: 0;
+    /* Remove o padding padrão */
+}
+
+/* Estiliza a faixa no topo da página */
+
+header {
+    background-color: #FE5F55;
+    /* Cor de fundo do topo */
+    height: 10vh;
+    /* Define a altura do topo */
+}
+
+/* Estiliza a parte do meio da página index */
+
+main {
+    display: flex;
+    /* Usa Flexbox para layout */
+    padding: 10vh;
+    /* Ajusta o conteúdo em relação ao topo */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    height: 60vh;
+    /* Define a distância entre o topo e o conteudo*/
+}
+
+/* Estiliza a barra de busca */
+#campo-pesquisa {
+    width: 30rem;
+    /* Largura dos inputs */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos inputs */
+    color: #45474B;
+    /* Cor do texto */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura total */
+}
+
+/* Estiliza o botão de pesquisar */
+#btn-pesquisar {
+    display: flex;
+    width: 15rem;
+    margin: 0 auto;
+    /* Centraliza o botão horizontalmente */
+    padding: 0.8rem 1.2rem;
+    /* Espaçamento interno do botão */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    background-color: #FE5F55;
+    /* Cor de fundo do botão */
+    color: #FEF9FF;
+    /* Cor do texto do botão */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+}
+
+
+
+.menu-button {
+    text-decoration: none;
+    /* Remove a aparência de link */
+    font-family: "Merriweather Sans", sans-serif;
+    /* Define a fonte padrão */
+    font-weight: 300;
+    /* Define a grossura da fonte */
+    margin: 0 auto;
+    /* Centraliza o botão horizontalmente */
+    padding: 0.8rem 1.2rem;
+    /* Espaçamento interno do botão */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    background-color: #FE5F55;
+    /* Cor de fundo do botão */
+    color: #FEF9FF;
+    /* Cor do texto do botão */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+}
+
+#explore-abordagens1 {
+    position: absolute;
+    top: 2.5vh;
+    left: 1vw;
+}
+
+#explore-atividades1 {
+    position: absolute;
+    top: 2.5vh;
+    left: 18vw;
+}
+
+/* Adiciona efeito hover aos botões */
+#btn-pesquisar:hover {
+    background-color: #ff7e74;
+    /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra mais intensa */
+}
+
+.menu-button:hover {
+    background-color: #ff7e74;
+    /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra mais intensa */
+}
+
+.menu-button:active {
+    background-color: #ff7369;
+    /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra mais intensa */
+ }
+
+ /* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 60vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+.resultado-nulo {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #FEF9FF;
+    /* Cor de fundo do rodapé */
+    color: #45474B;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinha o texto ao centro */
+    padding: 0;
+    /* Espaçamento interno */
+    width: 100%;
+    /* Largura total da página */
+    position: absolute;
+    /* Posiciona o rodapé */
+    bottom: 0;
+    /* Alinha ao fundo da página */
+    font-size: 0.8rem;
+    /* Tamanho da fonte */
+}
