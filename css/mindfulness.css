@@ -49,9 +49,8 @@ main {
 }
 
 .title2 {
-    color: #FE5F55;
     position: absolute;
-    top: 57vh
+    top: 54vh
 }
 
 
@@ -59,12 +58,12 @@ main {
     display: flex;
     /* Usa Flexbox para layout */
     position: relative;
-    bottom: 10vh;
+    bottom: 5vh;
     flex-direction: column;
     /* Alinha os itens na vertical */
     align-items: center;
     /* Centraliza os itens horizontalmente */
-    background-color: #222831;
+    background-color: #79211b;
     border-radius: 1.5rem;
     /* Borda arredondada */
     width: 45rem;
@@ -91,7 +90,13 @@ main {
     border: none;
     border-radius: 1.5rem;
     /* Borda arredondada */
-  }
+}
+
+.aviso {
+    position: absolute;
+    bottom: 12vh;
+    color: #45474B;
+}
 
 .menu-button {
     text-decoration: none;
@@ -174,38 +179,38 @@ main {
     /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     /* Adiciona uma sombra mais intensa */
- }
+}
 
- .timer-button:active {
+.timer-button:active {
     background-color: #aaaaaa;
     /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     /* Adiciona uma sombra mais intensa */
- }
+}
 
- .youtube-links {
+.youtube-links {
     width: 70rem;
     /* Largura máxima da caixa de resultados */
-    height: 2vh;
+    height: 15vh;
     /* Altura máxima da caixa de resultados */
     padding: 3rem;
     /* Espaçamento interno */
     border-radius: 0.6rem;
     /* Borda arredondada */
- }
+}
 
- .youtube-links a {
+.youtube-links a {
     text-decoration: none;
-    color:#FE5F55;
- }
+    color: #FE5F55;
+}
 
- .youtube-links a:hover {
+.youtube-links a:hover {
     text-decoration: underline;
     /* Adiciona sublinhado ao passar o mouse */
- }
+}
 
 
-  /* Estiliza o rodapé da página */
+/* Estiliza o rodapé da página */
 footer {
     background-color: #FEF9FF;
     /* Cor de fundo do rodapé */

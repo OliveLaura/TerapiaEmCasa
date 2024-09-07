@@ -33,6 +33,8 @@ function iniciarTimer() {
         if (distance < 0) {
             clearInterval(timerInterval);
             timerElement.textContent = "00:00";
+            const endaudio = document.getElementById("endbell");
+            endaudio.play();
             return;
         }
 
